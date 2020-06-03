@@ -6,6 +6,8 @@ pipeline {
       steps {
         echo "$GIT_BRANCH"
       }
+    }
+    stage('Echo die shit!')
       steps {
         sh(script: 'echo hello World')
       }
