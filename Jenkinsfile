@@ -6,6 +6,9 @@ pipeline {
       steps {
         echo "$GIT_BRANCH"
       }
+      steps {
+        sh(script: 'echo hello World')
+      }
     }
   }
 }
